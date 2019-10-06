@@ -11,10 +11,24 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.charm",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.charm",
+					"match": "\\b(if|while|for|return)\\b"
+				},
+				{
+					"name": "keyword.other.decl.charm",
+					"match": "\\b(def|struct|val|var)\\b"					
+				},
+				{
+					"name": "entity.name.type.charm",
+					"match": "\\b(bool|char|double|float|int|int8|int16|int32|int64|long|short|string|uint|uint8|uint16|uint32|uint64)\\b"
+				},
+				{
+					"name": "keyword.other.literal.charm",
+					"match": "\\b(false|null|true)\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.charm",
