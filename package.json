@@ -1,0 +1,25 @@
+{
+    "name": "charm",
+    "displayName": "charm",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "charm",
+            "aliases": ["charm", "charm"],
+            "extensions": [".ch"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "charm",
+            "scopeName": "source.ch",
+            "path": "./syntaxes/charm.tmLanguage.json"
+        }]
+    }
+}
