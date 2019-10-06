@@ -14,7 +14,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.charm",
-					"match": "\\b(if|while|for|return)\\b"
+					"match": "\\b(break|continue|for|if|return|while)\\b"
 				},
 				{
 					"name": "keyword.other.decl.charm",
